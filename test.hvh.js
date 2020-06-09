@@ -3,7 +3,8 @@ FRZ.exports(function(){
       var api = {};
       
 			api.render = function(attrs){
-				return dom.div(null, dom.span({
+				return dom.div({
+				zac:"bgc_y h_400"}, dom.span({
 				zac : attrs.zac}, "name is : "+attrs.name), "I live on git is hv a bad thing for item viewer - should they not follow a hvh??? - I think so");
 			}
 			return api;
