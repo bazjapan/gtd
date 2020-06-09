@@ -4,7 +4,7 @@ FRZ.exports(function(){
       
 			api.render = function(attrs){
 				return dom.div(null, dom.span({
-				zac : attrs.zac}, attrs.name), "I live on git is hv a bad thing for item viewer - should they not follow a hvh??? - I think so");
+				zac : attrs.zac}, "name is : "+attrs.name), "I live on git is hv a bad thing for item viewer - should they not follow a hvh??? - I think so");
 			}
 			return api;
   
